@@ -10,11 +10,11 @@
 </head>
 <body>
 	<form action="">
-		<input id="sign-in" type="radio" value="sign-in">
+		<input id="sign-in" type="radio" value="sign-in" name="action">
 		<label for="sign-in">Sign in</label>
-		<input id="sign-up" type="radio" value="sign-up">
+		<input id="sign-up" type="radio" value="sign-up" name="action">
 		<label for="sign-up">Sign up</label>
-		<input id="reset" type="radio" value="reset">
+		<input id="reset" type="radio" value="reset" name="action">
 		<label for="reset">Reset</label>
 		<div id="wrapper">
 			<div id="arrow"></div>
@@ -24,15 +24,15 @@
 		</div>
 		<button>
 			<span>
-			Confirm password
+			Reset password
 			<br>
 			Sign In
 			<br>
-			Sign Out
+			Sign Up
 			</span>
 		</button>
 
 	</form>
-	<div class="hint">Click on the tabs</div>
+	<div id="hint">Click on the tabs</div>
 </body>
 </html>
