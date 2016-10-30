@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html, body { margin: 0; }
+
+body {
+	background: tomato;
+	color: #fff;
+	font-family: "Quicksand", sans-serif;
+	/* for better text rendering in WebKit */
+	-webkit-font-smoothing: antialiased;
+}
+
+.hint {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+}
